@@ -1,0 +1,41 @@
+.Bullet {
+    margin: 20px 0;
+    font-family: 'Helvetica';
+    font-weight: 300;
+}
+
+.Bullet span {
+    color: #ea5455;
+}
+
+@media (max-width:1050px) {
+    .Bullet {
+        margin: 15px 0;
+    }
+}
+
+@media (max-width:800px) {
+    .Bullet {
+        margin: 15px 0;
+    }
+}
+
+
+@media (max-width:620px) {
+    .Bullet {
+        margin: 15px 0;
+    }
+}
+
+
+@media (max-width:475px) {
+    .Experiences .Bullets {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width:374px) {
+    .Experiences .Bullets {
+        text-align: center;
+    }
+}

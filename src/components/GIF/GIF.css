@@ -1,0 +1,32 @@
+.Gif {
+    margin-left: 80px;
+    width: 620px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-radius: 20px;
+
+}
+
+@media (max-width:800px) {
+    .Gif {
+        width: 420px;
+    }
+    
+}
+
+@media (max-width:620px) {
+    .Gif {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 320px;
+    }
+    
+}
+
+@media (max-width:475px) {
+    .Gif {
+        width: 270px;
+    }
+    
+}

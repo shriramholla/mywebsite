@@ -1,0 +1,34 @@
+.Button {
+    background-color: #ea5455;
+    padding: 0 20px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Button:hover{
+    animation-name: bounceOut;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    cursor: pointer;
+}
+
+
+@media (max-width: 500px) {
+    .Button {
+        height: 30px;
+        padding: 0 15px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 325px) {
+    .Button {
+        height: 26px;
+        font-size: 0.8rem;
+    }
+}
+

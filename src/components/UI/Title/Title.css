@@ -1,0 +1,31 @@
+.Title {
+    display: block;
+    font-size: 3rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.border {
+    width: 100px;
+    height: 1px;
+    margin: 0px auto;
+    border-bottom: 1px solid #ea5455;
+}
+
+@media (max-width:499px) {
+    .Title {
+        font-size: 2rem;
+    }
+    .border {
+        width: 60px;
+    }
+
+
+
+}
+
+@media (max-width:320px) {
+    .Title {
+        font-size: 1.5rem;
+    }
+
+}

@@ -1,0 +1,131 @@
+#Welcome {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    min-height: 95vh;
+    top: 0;
+    bottom: 0;
+}
+
+#Welcome .Hey {
+    margin-top: 160px;
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin-right: 60px;
+    
+}
+
+#Welcome .Emoji {
+    padding: 0 10px;
+    display: inline-block;
+    animation-name: wave-animation;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+}
+
+#Welcome .Name {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4rem;
+    color: #ea5455;
+    margin-top: -10px;
+}
+
+#Welcome .Name span {
+    color: black;
+}
+
+#Welcome .Tag {
+    font-size: 2rem;
+    font-weight: 300;
+    animation-name: bounceIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    margin-top: -10px;
+}
+
+
+
+#Welcome .Hire {
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+#Welcome .Hire:hover {
+    animation-name: bounceOut;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+#Welcome .Logo {
+    color: black;
+    font-size: 3rem;
+    padding: 0 20px;
+}
+
+#Welcome .Logos {
+    margin-top: 50px;
+
+}
+
+#Welcome .Logo:hover {
+    color: #ea5455;
+    animation-name: bounceOut;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    
+}
+
+
+@media (max-width: 569px) {
+    #Welcome {
+        min-height: 680px;
+    }
+    #Welcome .Hey {
+        font-size: 2.8rem;
+        margin-top: 30%;
+        margin-right: 50px;
+    }
+    #Welcome .Name {
+        font-size: 2rem;
+    }
+
+    #Welcome .Tag {
+        font-size: 1.6rem;
+        margin-right: 10px;
+        padding-bottom: 0;
+    }
+    #Welcome .Logo {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 325px) {
+    #Welcome {
+        min-height: 580px;
+    }
+
+    #Welcome .Hey {
+        font-size: 2rem;
+        margin-top: 75px;
+        margin-right: 30px;
+    }
+    #Welcome .Name {
+        font-size: 1.5rem;
+    }
+
+    #Welcome .Tag {
+        font-size: 1.1rem;
+    }
+
+    #Welcome .Hire {
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    #Welcome .Logo {
+        font-size: 1.9rem;
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,71 @@
+.Heading {
+    display: inline-block;
+    margin-top: 50px;
+    font-family: 'Work Sans';
+}
+
+.Heading .TopicTitle {
+    display: inline-block;
+    margin: 0;
+    margin-left: 35px;
+    font-size: 1.85rem;
+}
+
+.Date span {
+    color: #ea5455;
+}
+
+.Date {
+    margin: 10px 0;
+    font-size: 1.3rem;
+    margin-left: 50px;
+    font-family: 'Helvetica';
+    letter-spacing: 2px;
+}
+
+@media (max-width:1050px) {
+    .Heading {
+        margin-top: 50px;
+    }
+    .Heading .TopicTitle {
+        margin-left: 25px;
+        font-size: 1.5rem;
+    }
+    .Date {
+        font-size: 1.1rem;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:800px) {
+    .Heading .TopicTitle {
+        margin-left: 30px;
+        font-size: 1.4rem;
+    }
+    .Date {
+        font-size: 1rem;
+        margin-left: 45px;
+    }
+}
+
+@media (max-width:620px) {
+    .Heading .TopicTitle {
+        margin-left: 20px;
+        font-size: 1.2rem;
+    }
+    .Date {
+        font-size: 0.9rem;
+        margin-left: 35px;
+    }
+}
+
+@media (max-width:475px) {
+    .Heading .TopicTitle {
+        font-size: 1.15rem;
+        margin-left: 0;
+    }
+    .Date {
+        font-size: 0.9rem;
+        margin-left: 0;
+    }
+}

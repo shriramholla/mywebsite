@@ -1,0 +1,44 @@
+.Box {
+    width: 1000px;
+    margin: 0;
+    display: inline-block;
+    margin-top: 70px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 0px 30px 0px rgba(70, 70, 70, 0.1);
+    border-radius: 40px;
+}
+
+
+@media (max-width:1050px) {
+    .Box {
+        width: 750px;
+    }
+}
+
+@media (max-width:800px) {
+    .Box {
+        width: 600px;
+    }
+}
+
+@media (max-width:620px) {
+    .Box {
+        width: 450px;
+    }
+}
+
+@media (max-width:475px) {
+    .Box {
+        margin: inherit 0;
+        width: 350px;
+        text-align: center;
+    }
+}
+
+@media (max-width:374px) {
+    .Box {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
