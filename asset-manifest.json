@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/mywebsite/static/css/main.3e6829a0.chunk.css",
+    "main.js": "/mywebsite/static/js/main.2d407682.chunk.js",
+    "main.js.map": "/mywebsite/static/js/main.2d407682.chunk.js.map",
+    "runtime-main.js": "/mywebsite/static/js/runtime-main.2e72d8b5.js",
+    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.2e72d8b5.js.map",
+    "static/js/2.b0d53d20.chunk.js": "/mywebsite/static/js/2.b0d53d20.chunk.js",
+    "static/js/2.b0d53d20.chunk.js.map": "/mywebsite/static/js/2.b0d53d20.chunk.js.map",
+    "index.html": "/mywebsite/index.html",
+    "precache-manifest.08f01564cdd5434097ec153bbeba1c7f.js": "/mywebsite/precache-manifest.08f01564cdd5434097ec153bbeba1c7f.js",
+    "service-worker.js": "/mywebsite/service-worker.js",
+    "static/css/main.3e6829a0.chunk.css.map": "/mywebsite/static/css/main.3e6829a0.chunk.css.map",
+    "static/js/2.b0d53d20.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.b0d53d20.chunk.js.LICENSE.txt",
+    "static/media/SDD.gif": "/mywebsite/static/media/SDD.49a1d1e3.gif",
+    "static/media/ardor.gif": "/mywebsite/static/media/ardor.1230db21.gif",
+    "static/media/autonet.gif": "/mywebsite/static/media/autonet.f6555337.gif",
+    "static/media/convey.gif": "/mywebsite/static/media/convey.08e3e2bb.gif",
+    "static/media/coronah.gif": "/mywebsite/static/media/coronah.3aa830db.gif",
+    "static/media/daily.gif": "/mywebsite/static/media/daily.d4e56f26.gif",
+    "static/media/face.jpg": "/mywebsite/static/media/face.d24b0c31.jpg",
+    "static/media/inventory.gif": "/mywebsite/static/media/inventory.dd3e213a.gif",
+    "static/media/myimg.jpg": "/mywebsite/static/media/myimg.8bd89501.jpg",
+    "static/media/myresume.pdf": "/mywebsite/static/media/myresume.50effa3f.pdf",
+    "static/media/sudoku.gif": "/mywebsite/static/media/sudoku.80a74cd8.gif",
+    "static/media/ted.gif": "/mywebsite/static/media/ted.1fcdf130.gif",
+    "static/media/thermal.gif": "/mywebsite/static/media/thermal.0b712f20.gif",
+    "static/media/titanic.jpg": "/mywebsite/static/media/titanic.a9eb84fc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e72d8b5.js",
+    "static/js/2.b0d53d20.chunk.js",
+    "static/css/main.3e6829a0.chunk.css",
+    "static/js/main.2d407682.chunk.js"
+  ]
+}
